@@ -19,7 +19,12 @@ const randomMath = (number1, number2) => {
   const sum = number1 + number2;
   const sub = number1 - number2;
   const result = sum * sub;
-  return result;//important
+  return result; //important
 };
-const result3=randomMath(5,6);
+const result3 = randomMath(5, 6);
 console.log(result3);
+
+// find the maximum number
+let max = (a, b) => (a > b ? a : b);
+let result4=max(15,50);
+console.log(result4);
