@@ -2,7 +2,7 @@
 try...catch
 try...finally
 try...catch...finally
-*/
+*//*
 let x = 5;
 console.log("x=", x);
 try {
@@ -16,3 +16,18 @@ try {
 } finally {
   console.log("from finally"); //always executed
 }
+
+
+*/
+try {
+    try {
+      throw new Error("oops");
+    } finally {
+      console.log("finally");//finally
+    }
+  } catch (ex) {
+    console.error("outer", ex.message);//outer oops
+  }
+
+
+
