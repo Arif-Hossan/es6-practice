@@ -1,3 +1,14 @@
+// function declaration
+// function doubleIt(number) {
+//   return number * 2;
+// };
+
+// function expression
+// const doubleIt = function double (number) {
+//   return number * 2;
+// };
+
+// function expression with anonymous
 // const doubleIt = function (number) {
 //   return number * 2;
 // };
@@ -26,5 +37,5 @@ console.log(result3);
 
 // find the maximum number
 let max = (a, b) => (a > b ? a : b);
-let result4=max(15,50);
+let result4 = max(15, 50);
 console.log(result4);
